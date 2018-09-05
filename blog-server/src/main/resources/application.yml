@@ -7,3 +7,4 @@ spring:
 
 blog:
   title: Blog Demo
+  secret: NONE

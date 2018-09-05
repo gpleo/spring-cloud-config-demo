@@ -16,8 +16,16 @@ public class BlogServerApplication {
     @Value("${blog.title}")
     private String blogTitle;
 
+    @Value("${blog.secret}")
+    private String blogSecret;
+
     @GetMapping("/blog/title")
     public String getBlogTitle() {
         return this.blogTitle;
+    }
+
+    @GetMapping("/blog/secret")
+    public String getBlogSecret() {
+        return this.blogSecret;
     }
 }

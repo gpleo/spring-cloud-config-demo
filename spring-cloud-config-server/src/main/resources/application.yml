@@ -11,6 +11,11 @@ spring:
           uri: https://github.com/gpleo/spring-cloud-config-demo.git
           clone-on-start: true
           search-paths: config
+        encrypt:
+          enabled: false
+
+encrypt:
+  key: configKey
 
 security:
   basic:

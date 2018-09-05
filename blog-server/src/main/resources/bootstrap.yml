@@ -9,3 +9,6 @@ spring:
       profile: dev
       label: master
       enabled: true
+
+encrypt:
+  key: configKey
