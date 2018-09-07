@@ -13,10 +13,6 @@ spring:
           search-paths: config
         encrypt:
           enabled: false
-
-encrypt:
-  key: configKey
-
 security:
   basic:
     enabled: true

@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: account
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: config
+      password: config
+      profile: dev
+      label: master
+      enabled: true
+
+encrypt:
+  key-store:
+    location: file:///root/demo/config.jks
+    password: storepass
+    alias: democonfig
+    secret: keypass

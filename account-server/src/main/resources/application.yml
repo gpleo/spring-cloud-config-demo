@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: account
+
+account:
+  title: Account Demo
+  secret: NONE
